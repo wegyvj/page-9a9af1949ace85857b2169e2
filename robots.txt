@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://p-48a918cad9.scmmj.cn/sitemap.xml

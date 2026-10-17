@@ -1,0 +1,74 @@
+{
+  "version": 2,
+  "template_version": "3a528c553883e59d7cfa",
+  "page_size": 20,
+  "site_id": "21dc3deb4a255b9853adc50e",
+  "owner": "wegyvj",
+  "repo": "page-9a9af1949ace85857b2169e2",
+  "title": "色色小站(Ayanami)",
+  "mode": "repo",
+  "articles": [
+    {
+      "id": "9a9af1949ace85857b2169e2",
+      "a": "色色小站(Ayanami)",
+      "b": "",
+      "entity": "色色小站(Ayanami)",
+      "brand": "色色小站(Ayanami)",
+      "separator": "",
+      "path": "index.html",
+      "hash": "494fa53f6feaf6273963e108dd231525c858104b542dbe657898a5612ff3e312",
+      "content": {
+        "keyword1": "色色小站(Ayanami)",
+        "keyword2": "",
+        "primary_entity": "色色小站(Ayanami)",
+        "plans": [],
+        "clients": [],
+        "_offline": false,
+        "content": {
+          "AI_HERO_INTRO": "色色小站(Ayanami) 提供高效、稳定的数字内容加速服务。致力于优质线路与流媒体体验。",
+          "AI_DESCRIPTION": "色色小站(Ayanami) 提供高效、稳定的数字内容加速服务。致力于优质线路与流媒体体验。"
+        },
+        "_brand_page": {
+          "version": 3,
+          "body": "<style>\n:root {--bg-primary: #0a192f;--bg-secondary: #112240;--bg-card: #172b45;--accent-amber: #ffb300;--accent-amber-dim: rgba(255, 179, 0, 0.2);--text-primary: #e6f1ff;--text-secondary: #a8b2d1;--border-radius: 16px}\n\n* {box-sizing: border-box;margin: 0;padding: 0}\n\nbody {background-color: var(--bg-primary);color: var(--text-primary);font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif;line-height: 1.6;font-size: 16px}\n\nmain {max-width: 1200px;margin: 0 auto;padding: 0 24px}\n\nh1, h2, h3 {line-height: 1.2}\n\na {color: var(--accent-amber);text-decoration: none}\n\n/* Hero - Magazine Grid */\n.hero {display: grid;grid-template-columns: repeat(12, 1fr);gap: 24px;padding: 80px 0 60px;border-bottom: 1px solid var(--bg-secondary)}\n\n.hero-tagline {grid-column: 1 / 9;font-size: 0.9rem;letter-spacing: 0.1em;text-transform: uppercase;color: var(--accent-amber);margin-bottom: 16px;padding-bottom: 16px;border-bottom: 2px solid var(--accent-amber);display: inline-block}\n\n.hero-title {grid-column: 1 / 9;font-size: clamp(2.5rem, 6vw, 4.5rem);font-weight: 800;margin-bottom: 24px}\n\n.hero-lead {grid-column: 1 / 6;font-size: 1.25rem;color: var(--text-secondary)}\n\n.hero-meta {grid-column: 7 / 10;background: var(--bg-card);padding: 24px;border-radius: var(--border-radius);box-shadow: 0 10px 30px -10px rgba(2, 12, 27, 0.7);align-self: end}\n\n.hero-meta p {font-size: 0.9rem;margin-bottom: 12px;color: var(--text-secondary)}\n\n.hero-nav {grid-column: 1 / 13;display: flex;flex-wrap: wrap;gap: 12px;margin-top: 40px}\n\n.hero-nav a {padding: 8px 16px;border: 1px solid var(--accent-amber-dim);border-radius: 20px;font-size: 0.85rem;color: var(--text-primary);transition: all 0.3s ease}\n\n.hero-nav a:hover {background: var(--accent-amber);color: var(--bg-primary);border-color: var(--accent-amber)}\n\n/* Section Styles */\nsection {padding: 80px 0;border-bottom: 1px solid var(--bg-secondary)}\n\n.section-title {font-size: 2rem;margin-bottom: 40px;color: var(--text-primary)}\n\n.section-title span {color: var(--accent-amber)}\n\n/* Plans - Staircase Layout */\n.plans-container {display: flex;flex-direction: column;gap: 24px}\n\n.plan-card {background: var(--bg-card);border-radius: var(--border-radius);padding: 32px;box-shadow: 0 10px 30px -10px rgba(2, 12, 27, 0.7);display: grid;grid-template-columns: 1fr 2fr auto;gap: 24px;align-items: center}\n\n.plan-card:nth-child(2) {margin-left: 5%;border-left: 4px solid var(--accent-amber);background: linear-gradient(to right, var(--bg-card), var(--bg-secondary))}\n\n.plan-card:nth-child(3) {margin-left: 10%}\n\n.plan-header h3 {font-size: 1.5rem;color: var(--accent-amber)}\n\n.plan-price {font-size: 1.8rem;font-weight: bold}\n\n.plan-features {list-style: none}\n\n.plan-features li {margin-bottom: 8px;font-size: 0.95rem;color: var(--text-secondary)}\n\n.plan-features li::before {content: \"—\";margin-right: 8px;color: var(--accent-amber)}\n\n.plan-annual {font-size: 0.85rem;color: var(--accent-amber);margin-top: 8px}\n\n/* Clients/Guide Section */\n.guide-grid {display: grid;grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));gap: 24px}\n\n.guide-card {background: var(--bg-card);border-radius: var(--border-radius);padding: 24px;box-shadow: 0 10px 30px -10px rgba(2, 12, 27, 0.7)}\n\n.guide-card h3 {color: var(--accent-amber);margin-bottom: 16px;font-size: 1.2rem}\n\n.guide-card p {color: var(--text-secondary);font-size: 0.95rem}\n\n/* FAQ - Grouped */\n.faq-group {margin-bottom: 48px}\n\n.faq-group h3 {color: var(--accent-amber);margin-bottom: 24px;font-size: 1.3rem;border-bottom: 1px solid var(--accent-amber-dim);padding-bottom: 12px}\n\n.faq-item {margin-bottom: 16px;background: var(--bg-secondary);border-radius: var(--border-radius);padding: 16px 24px}\n\n.faq-item details summary {cursor: pointer;font-weight: 500;list-style: none}\n\n.faq-item details summary::-webkit-details-marker {display: none}\n\n.faq-item details summary::before {content: \"+ \";color: var(--accent-amber)}\n\n.faq-item details[open] summary::before {content: \"- \"}\n\n.faq-item p {margin-top: 12px;color: var(--text-secondary);font-size: 0.95rem}\n\nfooter {padding: 40px 24px;text-align: center;color: var(--text-secondary);font-size: 0.85rem}\n\n@media (max-width: 768px) {\n    .hero-title, .hero-lead, .hero-meta {grid-column: 1 / 13}\n    .plan-card {grid-template-columns: 1fr;margin-left: 0 !important}\n    .plan-card:nth-child(2), .plan-card:nth-child(3) {margin-left: 0}\n}\n</style><main>\n    <header class=\"hero\">\n        <span class=\"hero-tagline\">沉浸式数字体验</span>\n        <h1 class=\"hero-title\">色色小站(Ayanami) · 色色小站<br>Ayanami</h1>\n        <p class=\"hero-lead\">不只是连接。我们构建通往高速数字内容的桥梁，专注稳定与体验。</p>\n        <div class=\"hero-meta\">\n            <p>极简设计。</p>\n            <p>高效传输。</p>\n            <p>优质服务。</p>\n        </div>\n        <nav class=\"hero-nav\">\n            <a href=\"#plans\">套餐方案</a>\n            <a href=\"#guide\">使用指南</a>\n            <a href=\"#faq\">常见问题</a>\n        </nav>\n    </header>\n\n    <section id=\"plans\">\n        <h2 class=\"section-title\">套餐 <span>方案</span></h2>\n        <div class=\"plans-container\">\n            <article class=\"plan-card\">\n                <div class=\"plan-header\">\n                    <h3>基础版</h3>\n                    <div class=\"plan-price\">¥15/月</div>\n                    <div class=\"plan-annual\">按年付仅需 ¥150/年</div>\n                </div>\n                <ul class=\"plan-features\">\n                    <li>每月 100GB 极速流量</li>\n                    <li>支持 3 台设备同时在线</li>\n                    <li>解锁基础流媒体</li>\n                    <li>普通线路节点池</li>\n                </ul>\n            </article>\n\n            <article class=\"plan-card\">\n                <div class=\"plan-header\">\n                    <h3>旗舰版</h3>\n                    <div class=\"plan-price\">¥35/月</div>\n                    <div class=\"plan-annual\">按年付仅需 ¥350/年</div>\n                </div>\n                <ul class=\"plan-features\">\n                    <li>每月 300GB 极速流量</li>\n                    <li>支持 5 台设备同时在线</li>\n                    <li>全节点原生流媒体解锁</li>\n                    <li>IPLC 专线游戏加速优化</li>\n                    <li>7x24 优先工单支持</li>\n                </ul>\n            </article>\n\n            <article class=\"plan-card\">\n                <div class=\"plan-header\">\n                    <h3>团队版</h3>\n                    <div class=\"plan-price\">¥85/月</div>\n                    <div class=\"plan-annual\">按年付仅需 ¥850/年</div>\n                </div>\n                <ul class=\"plan-features\">\n                    <li>每月 1000GB 极速流量</li>\n                    <li>支持 20 台设备同时在线</li>\n                    <li>VIP 专属高带宽节点</li>\n                    <li>支持企业定制路由</li>\n                    <li>专属客户经理服务</li>\n                </ul>\n            </article>\n        </div>\n    </section>\n\n    <section id=\"guide\">\n        <h2 class=\"section-title\">使用 <span>指南</span></h2>\n        <div class=\"guide-grid\">\n            <article class=\"guide-card\">\n                <h3>第一步：选择套餐</h3>\n                <p>根据您的设备数量和流量需求，选择最适合的套餐方案。支持月付与年付。</p>\n            </article>\n            <article class=\"guide-card\">\n                <h3>第二步：获取客户端</h3>\n                <p>购买后，您将获得订阅链接。请根据您的设备系统选择兼容的客户端软件。</p>\n            </article>\n            <article class=\"guide-card\">\n                <h3>第三步：配置连接</h3>\n                <p>在客户端中导入订阅链接，更新节点列表。选择延迟最低的节点即可开始使用。</p>\n            </article>\n        </div>\n    </section>\n\n    <section id=\"faq\">\n        <h2 class=\"section-title\">常见 <span>问题</span></h2>\n        \n        <div class=\"faq-group\">\n            <h3>套餐与计费</h3>\n            <div class=\"faq-item\">\n                <details>\n                    <summary>套餐流量可以结转吗？</summary>\n                    <p>套餐流量在当月有效周期内使用。未使用完的流量将在下次计费周期开始时重置，不支持结转。</p>\n                </details>\n            </div>\n            <div class=\"faq-item\">\n                <details>\n                    <summary>如何升级或降级套餐？</summary>\n                    <p>您可以在用户中心直接操作更换套餐。升级套餐将按比例补差价，降级则在下个周期生效。</p>\n                </details>\n            </div>\n        </div>\n\n        <div class=\"faq-group\">\n            <h3>设备与兼容性</h3>\n            <div class=\"faq-item\">\n                <details>\n                    <summary>支持哪些设备平台？</summary>\n                    <p>支持 Windows、macOS、iOS、Android 及部分路由器固件。只要您的设备支持主流代理协议即可使用。</p>\n                </details>\n            </div>\n            <div class=\"faq-item\">\n                <details>\n                    <summary>一台设备可以同时登录多个客户端吗？</summary>\n                    <p>取决于您的套餐允许的设备数量。如果超出限制，最早的连接将被自动下线。</p>\n                </details>\n            </div>\n        </div>\n    </section>\n\n    <footer>\n        <p>© 色色小站(Ayanami). 保留所有权利。</p>\n    </footer>\n</main>",
+          "hash": "03565c9278b3c22c4dbbc5f551c1baf71c4f2b88caf05d67b8d7ae95b69723fd",
+          "seo": {
+            "title": "色色小站(Ayanami) - 沉浸式数字内容服务",
+            "keywords": "色色小站, Ayanami, 数字内容, 高速连接, 流媒体解锁",
+            "description": "色色小站(Ayanami) 提供高效、稳定的数字内容加速服务。致力于优质线路与流媒体体验。"
+          },
+          "provider": "grok",
+          "model": "glm-5.3",
+          "design": {
+            "no": "9722",
+            "hero": "3 杂志式多栏网格配引言",
+            "palette": "3 深海蓝配琥珀",
+            "nav": "3 首屏内嵌锚点标签",
+            "card": "3 大圆角软阴影",
+            "plans_view": "3 阶梯式递进排列",
+            "faq_view": "3 按主题分组",
+            "tone": "3 简洁利落的短句",
+            "order": "首屏优先，其余区块由 AI 根据已选构图和信息关系安排"
+          }
+        }
+      }
+    }
+  ],
+  "domain": {
+    "apex": "scmmj.cn",
+    "host": "p-48a918cad9.scmmj.cn",
+    "kind": "subdomain",
+    "candidate_roots_ref": "subdomain_roots:91e741dce7c147d9ce91af6f84daa678dae755807d903b04925261e0a3a8d804",
+    "prefix_mode": "auto"
+  },
+  "friendlinks": [],
+  "file_hashes": {
+    "index.html": "77f6b97e7129a687ea916f82ecc9e3db10983cbbe29a5c84a64b64340b3855ec",
+    "sitemap.xml": "adbbc273f09005c737a3900b378f31f21129431c74c06cb9f2598d957accc4e0",
+    ".nojekyll": "12ae32cb1ec02d01eda3581b127c1fee3b0dc53572ed6baf239721a03d82e126",
+    "CNAME": "6dc0abb9b22dfad4233ed01233cd634dfd48f2c4e4dc4620cbfb3e530833cebb",
+    "robots.txt": "63b5c1ff40cc9cc0fa3a6373b35fa7a164dff2240f02f82653a9d516ae587704",
+    "38de3b778e34f358ea7497c031712ac4.txt": "964e59c8a35f468faf346b4791618ae9414e9c06e5fcc0cf08fb4c600d9d9f00"
+  },
+  "revision": "a1edbf2c30e6d6be763e2e17437e8746e0656620b56fe2d236f08a710d431d62"
+}
